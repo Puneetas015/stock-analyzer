@@ -1,29 +1,30 @@
 # 📊 Stock Analyzer App
 
-A **machine learning-powered stock trend analyzer** built using **Streamlit** and **yFinance**. This app predicts stock price trends (Buy/Sell) based on historical data, technical indicators, and visual insights — tailored here for **RELIANCE.NS**.
+**Stock Analyzer** is a machine learning-based application designed to analyze and predict stock price trends, specifically for **RELIANCE.NS**, using historical financial data and technical indicators. Developed with **Streamlit** and **yFinance**, the app provides a user-friendly interface to visualize trends and evaluate Buy/Sell decisions based on model predictions.
 
 ---
 
-## 🚀 Features
+## 🚀 Key Features
 
-- 📈 Download real-time historical stock data using `yfinance`
-- 🤖 Train ML models to predict **Buy/Sell** signals
-- 📊 Visualize technical indicators like:
-  - Moving Averages
-  - RSI
-  - MACD
-- 🔍 Display model accuracy and prediction breakdown (Confusion Matrix, Pie Charts)
-- 🧠 Option to view buy/sell signals on stock charts
-
----
-
-## 🖥 Tech Stack
-
-- **Frontend:** Streamlit
-- **Data Source:** Yahoo Finance (`yfinance`)
-- **ML & Visualization:** Scikit-learn, Pandas, Matplotlib
+- 📥 Retrieve real-time historical stock data via the `yfinance` API
+- 🤖 Train and evaluate machine learning models to generate Buy/Sell predictions
+- 📊 Visualize key technical indicators, including:
+  - Simple and Exponential Moving Averages
+  - Relative Strength Index (RSI)
+  - Moving Average Convergence Divergence (MACD)
+- 📌 Display model performance through:
+  - Confusion Matrix
+  - Accuracy breakdown (Pie Chart)
+- 📉 Overlay Buy/Sell signals on interactive price charts for decision support
 
 ---
 
-## 📂 Folder Structure
+## 🧰 Tech Stack
+
+- **Frontend Framework:** Streamlit (Python-based web UI)
+- **Data Acquisition:** Yahoo Finance via `yfinance`
+- **Machine Learning & Data Processing:** Scikit-learn, Pandas, NumPy
+- **Visualization:** Matplotlib, Seaborn
+
+---
 
